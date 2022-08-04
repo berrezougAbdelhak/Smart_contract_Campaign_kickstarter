@@ -21,6 +21,37 @@
 			},
 			{
 				"constant": true,
+				"inputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "requests",
+				"outputs": [
+					{
+						"name": "description",
+						"type": "string"
+					},
+					{
+						"name": "value",
+						"type": "uint256"
+					},
+					{
+						"name": "recipient",
+						"type": "address"
+					},
+					{
+						"name": "complete",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
 				"inputs": [],
 				"name": "minimumContribution",
 				"outputs": [
@@ -93,9 +124,9 @@
 	},
 	"sources": {
 		"Campaign.sol": {
-			"keccak256": "0xd0356c07ff77d2ba77f387a3e7c5628de55990aeae177096544fc46844855656",
+			"keccak256": "0xfc81dc60d5f3c50da0b501107cc7f30b750d1ad4f0056e9fbc66a75f3864f6d3",
 			"urls": [
-				"bzzr://3b141233ff31f5ad8bc9a563bf2fd5ac769357b11bd7fa0170c88b7a952abb02"
+				"bzzr://cfddaef155850561d41d184f90bb6f6086a7f9030c058b178c4b8ebcef27cdeb"
 			]
 		}
 	},
