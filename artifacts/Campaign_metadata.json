@@ -34,6 +34,34 @@
 				"type": "function"
 			},
 			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "approvers",
+				"outputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "contribute",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"name": "minimum",
@@ -65,9 +93,9 @@
 	},
 	"sources": {
 		"Campaign.sol": {
-			"keccak256": "0x76536e128a568cc9157708031d46ac9829a09b6148086d6189c81226818b3dbe",
+			"keccak256": "0x3f77289fcf91de04a457db6a0649a7d34464756272b04ffc55210e890d9cfb52",
 			"urls": [
-				"bzzr://b17db9621b4e64355fc34ee0daaed0b9cccfd7baa87d9c243c3aa2b2b79eaa36"
+				"bzzr://edfa8a052eeae6ac01b01531004f2c55254948204fd9f174202ef6da411d199b"
 			]
 		}
 	},
