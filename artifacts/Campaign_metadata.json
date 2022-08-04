@@ -93,9 +93,9 @@
 	},
 	"sources": {
 		"Campaign.sol": {
-			"keccak256": "0x3f77289fcf91de04a457db6a0649a7d34464756272b04ffc55210e890d9cfb52",
+			"keccak256": "0xd0356c07ff77d2ba77f387a3e7c5628de55990aeae177096544fc46844855656",
 			"urls": [
-				"bzzr://edfa8a052eeae6ac01b01531004f2c55254948204fd9f174202ef6da411d199b"
+				"bzzr://3b141233ff31f5ad8bc9a563bf2fd5ac769357b11bd7fa0170c88b7a952abb02"
 			]
 		}
 	},
