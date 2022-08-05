@@ -88,6 +88,20 @@
 				"type": "function"
 			},
 			{
+				"constant": true,
+				"inputs": [],
+				"name": "approversCount",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"constant": false,
 				"inputs": [
 					{
@@ -178,9 +192,9 @@
 	},
 	"sources": {
 		"Campaign.sol": {
-			"keccak256": "0x905586576e39e9afe7751c84cd4e47e8a5f3a900094fd5357faf52630f72b213",
+			"keccak256": "0xed8a927640696fb23857092aa3572732fbf8b73f9abc1bb36cd99cd4b90fd63e",
 			"urls": [
-				"bzzr://51d1cfa5f3b7aedf09eb0edf3c096919dc935af8053b0929cc2429a9bd929766"
+				"bzzr://b6c3dd0f49818d541e8f51208c3713d19056be2df3cb702b41c41db7888948e8"
 			]
 		}
 	},
