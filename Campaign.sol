@@ -43,5 +43,13 @@ contract Campaign {
         requests.push(newRequest);
 
     }
-
+    function approveRequest(uint index) public {
+        Request storage request=requests[index];
+        //We verify that the sender is an approvers 
+        require(approvers[msg.sender]);
+        //To verify that the person has not voted on this particular request 
+        require(request.approvals[msg.sender]!=true);
+        request.approvals[msg.sender]==true;
+        request.approvalCount++;
+    }
 }

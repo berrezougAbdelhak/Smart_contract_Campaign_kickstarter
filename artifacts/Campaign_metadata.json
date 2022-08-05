@@ -119,6 +119,20 @@
 				"type": "function"
 			},
 			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "approveRequest",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"name": "minimum",
@@ -150,9 +164,9 @@
 	},
 	"sources": {
 		"Campaign.sol": {
-			"keccak256": "0x664c71e6daea0fb0a61640e75c4dd954df41eb8f46138bd40ba6c80feaec8ea6",
+			"keccak256": "0xcfac33dd6642c22bc8f0b1751db1da075c1082bc79abcdb9ea616cb294fd0a08",
 			"urls": [
-				"bzzr://051de910395cf879a28e6a01ac8f305775b68473ef2e544079da364522f42786"
+				"bzzr://1080040d52fcebb133c037a86c5c8507d0ec367c86b3ddb3c4d7355be71b19a0"
 			]
 		}
 	},
