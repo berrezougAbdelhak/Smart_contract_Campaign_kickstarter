@@ -6,6 +6,20 @@
 	"output": {
 		"abi": [
 			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "finalizeRequest",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"constant": true,
 				"inputs": [
 					{
@@ -164,9 +178,9 @@
 	},
 	"sources": {
 		"Campaign.sol": {
-			"keccak256": "0xcfac33dd6642c22bc8f0b1751db1da075c1082bc79abcdb9ea616cb294fd0a08",
+			"keccak256": "0x905586576e39e9afe7751c84cd4e47e8a5f3a900094fd5357faf52630f72b213",
 			"urls": [
-				"bzzr://1080040d52fcebb133c037a86c5c8507d0ec367c86b3ddb3c4d7355be71b19a0"
+				"bzzr://51d1cfa5f3b7aedf09eb0edf3c096919dc935af8053b0929cc2429a9bd929766"
 			]
 		}
 	},
