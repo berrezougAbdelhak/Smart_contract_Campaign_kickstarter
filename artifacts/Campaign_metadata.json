@@ -63,6 +63,10 @@
 					{
 						"name": "complete",
 						"type": "bool"
+					},
+					{
+						"name": "approvalCount",
+						"type": "uint256"
 					}
 				],
 				"payable": false,
@@ -146,9 +150,9 @@
 	},
 	"sources": {
 		"Campaign.sol": {
-			"keccak256": "0x5adbbf2232818ff23e4aedcda3ec4cf42dea554e5965a60c6f52efd2673644ee",
+			"keccak256": "0x664c71e6daea0fb0a61640e75c4dd954df41eb8f46138bd40ba6c80feaec8ea6",
 			"urls": [
-				"bzzr://7300e9f2cfefc92bac6a5bc3b8101e8ce50b6f01e2313d3efe6e7326ffecca55"
+				"bzzr://051de910395cf879a28e6a01ac8f305775b68473ef2e544079da364522f42786"
 			]
 		}
 	},
