@@ -165,6 +165,10 @@
 					{
 						"name": "minimum",
 						"type": "uint256"
+					},
+					{
+						"name": "creator",
+						"type": "address"
 					}
 				],
 				"payable": false,
@@ -192,9 +196,9 @@
 	},
 	"sources": {
 		"Campaign.sol": {
-			"keccak256": "0xed8a927640696fb23857092aa3572732fbf8b73f9abc1bb36cd99cd4b90fd63e",
+			"keccak256": "0x6c1291238bfeec8801c67be51bec01f8e3c8fe1b1dac628abbf8cd54549423ed",
 			"urls": [
-				"bzzr://b6c3dd0f49818d541e8f51208c3713d19056be2df3cb702b41c41db7888948e8"
+				"bzzr://6e6d41128c81f82a89c932854ec63bf57a968355045e92f60b84c0113409d486"
 			]
 		}
 	},
